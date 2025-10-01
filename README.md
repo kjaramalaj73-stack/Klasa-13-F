@@ -1,4 +1,5 @@
 💱 Konvertues Monedhash 
+
 Një aplikacion i thjeshtë dhe i shpejtë për konvertimin e monedhave nga një valutë në tjetrën, duke përdorur kurset më të fundit të këmbimit.
 
  🚀 Funksionalitetet
