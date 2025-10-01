@@ -11,5 +11,6 @@ Një aplikacion i thjeshtë dhe i shpejtë për konvertimin e monedhave nga një
   
    🛠️ Teknologjitë e përdorura
  -  Frontend: HTML  (sipas zgjedhjes)
+ 
  -Backend: PHP  (sipas zgjedhjes)
 
