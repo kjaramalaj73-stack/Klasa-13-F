@@ -5,13 +5,53 @@
     <title>Këmbimi Valutor</title>
 </head>
 <body style="font-family: Arial; background-color: #f2f2f2; text-align: center; padding: 50px;">
-    <h1>Këmbimi Valutor: Euro → Lek</h1>
+    <h1>Këmbimi Valutor</h1>
     
     <form action="convert7.php" method="post">
-        <label>Shkruaj vlerën në EURO:</label><br>
-        <input type="number" step="0.01" name="euro" required><br><br>
+        <label>Zgjidh monedhën origjinale:</label><br>
+        <select name="monedha_origjinale" required>
+             <option value="ALL">LEK - Leke</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="USD">USD - Dollar Amerikan</option>
+            <option value="CAD">CAD - Dollar Kanadez</option>
+            <option value="AUD">AUD - Dollar Australian</option>
+            <option value="NZD">NZD - Dollar Zelanda e Re</option>
+            <option value="GBP">GBP - Pound Britanik</option>
+            <option value="CHF">CHF - Franga Zviceriane</option>
+            <option value="SEK">SEK - Korona Suedeze</option>
+            <option value="DKK">DKK - Korona Daneze</option>
+            <option value="NOK">NOK - Korona Norvegjeze</option>
+            <option value="JPY">JPY - Jen Japonez</option>
+            <option value="CNY">CNY - Yuan Kinez</option>
+            <option value="TRY">TRY - Lira Turke</option>
+            <option value="HUF">HUF - Forint Hungarez</option>
+        </select>
+        <br><br>
 
-        <label>Shkruaj koefiçentin e këmbimit:</label><br>
+        <label>Zgjidh monedhën destinacion:</label><br>
+        <select name="monedha_destinacion" required>
+            <option value="EUR">EUR - Euro</option>
+              <option value="ALL">LEK - Leke</option>
+            <option value="USD">USD - Dollar Amerikan</option>
+            <option value="CAD">CAD - Dollar Kanadez</option>
+            <option value="AUD">AUD - Dollar Australian</option>
+            <option value="NZD">NZD - Dollar Zelanda e Re</option>
+            <option value="GBP">GBP - Pound Britanik</option>
+            <option value="CHF">CHF - Franga Zviceriane</option>
+            <option value="SEK">SEK - Korona Suedeze</option>
+            <option value="DKK">DKK - Korona Daneze</option>
+            <option value="NOK">NOK - Korona Norvegjeze</option>
+            <option value="JPY">JPY - Jen Japonez</option>
+            <option value="CNY">CNY - Yuan Kinez</option>
+            <option value="TRY">TRY - Lira Turke</option>
+            <option value="HUF">HUF - Forint Hungarez</option>
+        </select>
+        <br><br>
+
+        <label>Shkruaj shumën:</label><br>
+        <input type="number" step="0.01" name="shuma" required><br><br>
+
+        <label>Shkruaj kursin e këmbimit:</label><br>
         <input type="number" step="0.01" name="kursi" required><br><br>
 
         <button type="submit">Konverto</button>
