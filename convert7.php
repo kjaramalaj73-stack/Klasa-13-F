@@ -1,3 +1,4 @@
+
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -25,4 +26,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Nuk keni futur të dhëna!";
 }
-?>
