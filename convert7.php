@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<p>Kursi i këmbimit: <b>$kursi</b></p>";
     echo "<p>Shuma e konvertuar në <b>$monedha_destinacion</b>: <b>$rezultati $monedha_destinacion</b></p>";
 
-    echo "<br><a href='index7.html'>Kthehu mbrapa</a>";
+    echo "<br><a href='index.html'>Kthehu mbrapa</a>";
 
 } else {
     echo "Nuk keni futur të dhëna!";
